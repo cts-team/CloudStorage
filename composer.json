@@ -1,0 +1,31 @@
+{
+  "name": "covercms/cloudstorage",
+  "type": "library",
+  "description": "Cloud Storage Adapter",
+  "keywords": [
+    "php",
+    "covercms",
+    "cloud storage",
+    "oss",
+    "cos",
+    "qiniu",
+    "baidu"
+  ],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Mr moon",
+      "email": "createsmart@163.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CoverCMS\\CloudStorage\\": "src/"
+    },
+    "files": [
+    ]
+  },
+  "require": {
+    "ext-json": "*"
+  }
+}
