@@ -3,8 +3,6 @@
 
 namespace CoverCMS\CloudStorage\Qcloud;
 
-require __DIR__ . '/../../sdk/cos-php-sdk-v5/cos-sdk-v5.phar';
-
 use Qcloud\Cos\Client;
 
 class Base
